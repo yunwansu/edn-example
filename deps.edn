@@ -1,0 +1,5 @@
+{:deps
+ {org.clojure/clojure {:mvn/version "1.11.1"}}
+ :aliases
+ {:run
+  {:main-opts ["-i" "src/edn_example/core.clj" "-e" "(ns edn-example.core)" "-r"]}}}
